@@ -25,6 +25,6 @@ is a design of a class with methods
 the methods are not defined
 to keep error close to the source decorate with abstractmethod
 
-git config --global user.name "Lucas Fadersen"
+imap finds the ip on the network
 
-'''
+''' 
