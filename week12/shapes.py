@@ -1,4 +1,15 @@
+from abc import ABC
+from abc import abstractmethod 
 from math import pi
+
+class Shape(ABC):
+    @abstractmethod
+    def area():
+        pass
+
+class Triangle():
+    pass
+
 class Circle:
     def __init__(self, name, radius):
         self.name = name
