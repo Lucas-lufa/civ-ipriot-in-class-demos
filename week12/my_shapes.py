@@ -13,15 +13,18 @@ def which_is_the_larger_area(circle, square):
     else:
         return square
 
-''' 
+'''
+
 interface 
 stub needs to be implemented
 
 abstraction class
+has concrete methods
+
 is a design of a class with methods
 the methods are not defined
 to keep error close to the source decorate with abstractmethod
 
-
+git config --global user.name "Lucas Fadersen"
 
 '''

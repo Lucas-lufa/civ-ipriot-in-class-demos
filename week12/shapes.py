@@ -1,16 +1,17 @@
-from abc import ABC
-from abc import abstractmethod 
 from math import pi
+from abc import ABC, abstractmethod
 
 class Shape(ABC):
     @abstractmethod
-    def area():
+    def area(self):
         pass
 
-class Triangle():
+class Triangle(Shape):
     pass
+tri = Triangle()
+print('Triangle area:', tri.area())
 
-class Circle:
+class Circle(Shape):
     def __init__(self, name, radius):
         self.name = name
         self.radius = radius
@@ -19,7 +20,7 @@ class Circle:
     def area(self): #calculate_area?
         return pi * self.radius**2 # print(...)
 
-class Square:
+class Square(Shape):
     def __init__(self, name, length):
         self.name = name
         self.length = length
@@ -37,5 +38,5 @@ circle = Circle('circle', 5)
 square = Square('square', 5)
 print(return_the_larger_shape_by_area(circle, square)) #return circle
 
-
+Shape()
 
